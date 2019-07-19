@@ -29,7 +29,7 @@ class CounterContainer extends React.Component {
       <Counter
         count={count}
         handleDecrement={this.handleDecrement}
-        handleIncrement={handleIncrement}
+        handleIncrement={this.handleIncrement}
       />
     )
   }
