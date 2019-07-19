@@ -8,18 +8,9 @@ class CounterContainer extends React.Component {
     count: 0
   }
 
-  handleIncrement = (event) => {
-    this.setState({
-      count: this.state.count + 1
-    })
-  }
+  handleIncrement = () => this.setState({ count: this.state.count + 1 })
 
-
-  handleDecrement = (event) => {
-    this.setState({
-      count: this.state.count - 1
-    })
-  }
+  handleDecrement = () => this.setState({ count: this.state.count - 1 })
 
   render() {
     const {count} = this.state
